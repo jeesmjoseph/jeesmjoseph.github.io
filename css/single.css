@@ -1,5 +1,5 @@
 #single {
-    padding: 60px 0;
+    padding: 50px 0;
     line-height: 1.7em;
     font-size: 17px;
 }
@@ -142,14 +142,20 @@
 
 #single .page-content ol, #single .page-content ul {
     margin-bottom: 1.2em;
-    padding-left: 1.5em;
+    /* padding-left: 1.0em; */
     list-style-position: inside;
     opacity: 0.9;
 }
 
+#single .page-content ol li, #single .page-content ul li {
+    margin-bottom: 0.5em;
+    /* padding-left: 1.0em; */
+    display: list-item;
+}
+
 #single .page-content ol li li, #single .page-content ul li li {
     margin-bottom: 0.5em;
-    padding-left: 1.5em;
+    /* padding-left: 1.0em; */
 }
 
 /* sidebar */
