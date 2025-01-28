@@ -1,1 +1,4 @@
 User-agent: *
+
+# Sitemap location
+Sitemap: https://jeesmjoseph.github.io/sitemap.xml
